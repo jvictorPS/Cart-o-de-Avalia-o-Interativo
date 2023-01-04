@@ -3,19 +3,68 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 section {
     background-color: hsl(213, 19%, 18%);
-    width: 33%;
-    height: 50%;
-    padding: 3%;
-    border-radius: 20px;
+    width: 25%;
+    height: 25%;
+    padding: 2%;
+    border-radius: 30px;
+    color: hsl(216, 12%, 54%);
+}
+
+h3.titulo {
+    font-weight: 700;
+    font-size: 23px;
+    color: hsl(0, 0%, 100%);
 }
 
 .notas {
     display: flex;
     list-style: none;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.enviar {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    padding: 3% 0 3% 0;
+}
+
+.opcao {
+    background-color: hsl(216, 12%, 23%);
+    width: 10px;
+    height: 10px;
+    padding: 6%;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    display: flex;
+}
+
+.moldura {
+    width: 5px;
+    height: 5px;
+    padding: 6%;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 23%);
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
