@@ -1,14 +1,15 @@
 const notas = document.querySelectorAll('.opcao')
-const classificacao = document.querySelector('.avaliacao')
-
-
-console.log(notas)
-console.log(classificacao.textContent)
+let notaDada = "teste"
 
 notas.forEach ( (elemento) => {
     elemento.addEventListener('click', (evento) => {
-        const nota = evento.target.textContent
-
-        console.log(`Sua nota foi ${nota}`)
+        avalia(evento.target.textContent)
     })
 })
+
+export function avalia (nota) {
+    notaDada = `You selected out ${nota} of 5`
+
+}
+
+console.log(notaDada)
