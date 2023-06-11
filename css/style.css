@@ -11,16 +11,16 @@ body {
     min-height: 100vh
 }
 
-section {
+.cartao-avaliacao, .cartao-obrigado {
     background-color: hsl(213, 19%, 14%);
-    width: 25%;
-    height: 25%;
-    padding: 2%;
+    width: 350px;
+    height: 320px;
+    padding: 40px;
     border-radius: 30px;
     color: hsl(216, 12%, 54%);
 }
 
-h3.titulo {
+.texto-titulo {
     font-weight: 700;
     font-size: 23px;
     color: hsl(0, 0%, 100%);
@@ -53,7 +53,7 @@ h3.titulo {
     cursor: pointer;
 }
 
-.opcao {
+.opcao-notas {
     background-color: hsl(216, 12%, 23%);
     color: hsl(216, 12%, 54%);
     width: 10px;
@@ -67,19 +67,19 @@ h3.titulo {
     display: flex;
 }
 
-.opcao:hover {
+.opcao-notas:hover {
     background-color: hsl(216, 12%, 54%);
     color: hsl(0, 0%, 100%);
     cursor: pointer;
     font-size: 18px;
 }
 
-.opcao:active {
+.opcao-notas:focus {
     background-color: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
 
-.moldura {
+.logo {
     width: 5px;
     height: 5px;
     padding: 6%;
@@ -88,4 +88,33 @@ h3.titulo {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.cartao-obrigado {
+    display: none;
+}
+
+.container-avaliacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avaliacao {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 23%);
+    border-radius: 50px;
+    width: 200px;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 30px;
+}
+
+.mensagem {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagem {
+    margin-top: 20px;
 }

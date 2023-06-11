@@ -11,25 +11,49 @@
 
 <body>
 
-  <section id="cartao">
-    <div class="moldura">
-    <img src="images/icon-star.svg" alt="estrela logo">
+  <section id="cartao-avaliar" class="cartao-avaliacao">
+    <div class="logo">
+      <img src="images/icon-star.svg" alt="estrela logo">
     </div>
     <div class="texto">
-      <h3 class="titulo">How did we do?</h3>
-      <p class="pergunta">Please let us know how we did with your support request. All feedback is appreciated 
+      <h3 class="texto-titulo">How did we do?</h3>
+      <p class="texto-pergunta">Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!</p>
     </div>
 
     <ul class="notas">
-      <button class="opcao">1</button>
-      <button class="opcao">2</button>
-      <button class="opcao">3</button>
-      <button class="opcao">4</button>
-      <button class="opcao">5</button>
+      <button id="opcao" class="opcao-notas">1</button>
+      <button id="opcao" class="opcao-notas">2</button>
+      <button id="opcao" class="opcao-notas">3</button>
+      <button id="opcao" class="opcao-notas">4</button>
+      <button id="opcao" class="opcao-notas">5</button>
     </ul>
 
-    <a href="obrigado.html"><button class="enviar">SUBMIT</button></a>
+    <button type="button" id="botao-avaliar" class="enviar">SUBMIT</button>
+  </section>
+
+
+
+  <section id="cartao-agradecimento" class="cartao-obrigado">
+    <div class="imagem">
+      <img src="images/illustration-thank-you.svg" alt="estrela logo">
+    </div>
+
+    <div class="container-avaliacao">
+      <p id="avaliacao-feita" class="avaliacao">You selected out of 5</p>
+    </div>
+
+    <div class="texto-titulo">
+      <h3>Thank you!</h3>
+    </div>
+      
+    <div class="conteiner-mensagem">
+      <p class="mensagem">
+        We appreciate you taking the time to give a rating. If you ever need more support, 
+        dont hesitate to get in touch!
+      </p>
+    </div>
+
   </section>
 
   <script type="module" src="main.js"></script>
