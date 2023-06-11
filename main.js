@@ -1,4 +1,4 @@
-const notas = document.querySelectorAll('#opcao')
+const notas = document.querySelectorAll('#nota')
 const botaoAvaliar = document.querySelector('#botao-avaliar')
 const cartaoAvaliacao = document.querySelector('#cartao-avaliar')
 const cartaoAgradecimento = document.querySelector('#cartao-agradecimento')
